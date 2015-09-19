@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TagFlowLayout 自定义属性 -->
+    <attr name="isAssaginSpace" format="boolean"></attr>
+    <declare-styleable name="TagFlowLayout">
+        <attr name="isAssaginSpace"/>
+    </declare-styleable>
+</resources>

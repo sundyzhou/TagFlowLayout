@@ -1,0 +1,27 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="${relativePackage}.${activityClass}" >
+
+  <LinearLayout 
+      android:id="@+id/lly_content"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+        <ToggleButton android:id="@+id/toggle_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textOn="剩余空间分配:开"
+        android:textOff="剩余空间分配:关"
+        android:background="#555455"/>
+    <!-- com.example.tagflowlayout.TagFlowLayout -->
+    <com.example.tagflowlayout.TagFlowLayout
+        android:id="@+id/tagflowLayout"
+        android:layout_width="fill_parent"
+        app:isAssaginSpace="false"
+        android:layout_height="wrap_content"/>
+  </LinearLayout>
+
+</ScrollView>
